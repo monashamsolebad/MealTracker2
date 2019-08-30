@@ -6,4 +6,14 @@
 //  Copyright © 2019 Mona Shamsolebad. All rights reserved.
 //
 
-import Foundation
+import UIKit
+//Model
+struct Meal {
+    var name : String
+    var photo : UIImage
+    
+    var notes : String
+    var rating : Int
+    var timestamp : Date
+    
+}
